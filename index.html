@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <title>ShopKeeper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- google font imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/cart-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/cart-16x16.png">
+
+  <!-- manifest file for pwa -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- ios support for pwa -->
+  <link rel="apple-touch-icon" href="/assets/icons/cart-96x96.png">
+  <link rel="apple-touch-icon" href="/assets/icons/cart-144x144.png">
+  <link rel="apple-touch-icon" href="/assets/icons/cart-192x192.png">
+  <link rel="apple-touch-icon" href="/assets/icons/cart-384x384.png">
+  <link rel="apple-touch-icon" href="/assets/icons/cart-512x512.png">
+  <link rel="apple-touch-icon" href="/assets/icons/cart-1080x1080.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#344e41" />
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <p>ShopKeeper</p>
+    <img src="assets/add-to-cart.svg">
+    <input type="text" id="input-field" placeholder="Type to add">
+    <button id="add-button">Add to cart</button>
+
+    <ul id="shopping-list">
+    </ul>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
