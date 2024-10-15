@@ -1,0 +1,51 @@
+{
+  "name": "ShopKeeper",
+  "short_name": "ShopKeeper",
+  "start_url": "/ ",
+  "display": "standalone",
+  "background_color": "#EEF0F4",
+  "theme_color": "#344e41",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icons/cart-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/assets/icons/cart-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/assets/icons/cart-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/assets/icons/cart-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/assets/icons/cart-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/cart-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/assets/icons/cart-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/icons/cart-1080x1080.png",
+      "type": "image/png",
+      "sizes": "1080x1080"
+    }
+  ]
+}
